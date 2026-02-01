@@ -53,7 +53,7 @@ const committeeNames = [
 const committeeMembers = committeePhotos.map((file, index) => ({
   name: committeeNames[index] ?? "Committee Member",
   role: leadershipRoles[index % leadershipRoles.length],
-  photo: `../public/Committe%20Member/${file}`,
+  photo: `public/Committe%20Member/${file}`,
 }));
 
 const galleryImages = [
@@ -80,7 +80,7 @@ const galleryImages = [
   "485974079_122125207772662721_5304948711535318622_n.jpg",
   "486509389_122125207952662721_869443332210851083_n.jpg",
 ].map((file, index) => ({
-  src: `../public/gallery/${file}`,
+  src: `public/gallery/${file}`,
   caption: `Community highlight ${String(index + 1).padStart(2, "0")}`,
 }));
 
@@ -88,22 +88,22 @@ const programs = [
   {
     title: "Health & Nutrition Outreach",
     summary: "Mobile clinics delivering primary checkups and nutrition packs to underserved districts.",
-    poster: "../public/program/480700997_122120615492662721_6068042123690854491_n.jpg",
+    poster: "public/program/480700997_122120615492662721_6068042123690854491_n.jpg",
   },
   {
     title: "Eid Relief Drive",
     summary: "Seasonal campaign distributing essential food baskets and clothing across Dhaka neighborhoods.",
-    poster: "../public/program/EID.jpg",
+    poster: "public/program/EID.jpg",
   },
   {
     title: "March for Gaza Solidarity",
     summary: "Campus-wide solidarity march amplifying humanitarian advocacy and fundraising.",
-    poster: "../public/program/march_for_GAZA.jpg",
+    poster: "public/program/march_for_GAZA.jpg",
   },
   {
     title: "Winter Warmth Program",
     summary: "Blanket and warm clothing distribution supporting northern districts through student volunteers.",
-    poster: "../public/program/winter.jpg",
+    poster: "public/program/winter.jpg",
   },
 ];
 

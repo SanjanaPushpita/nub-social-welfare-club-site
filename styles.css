@@ -287,7 +287,7 @@ nav a {
 .hero-image {
   min-height: 320px;
   background: linear-gradient(120deg, rgba(149, 102, 67, 0.3), rgba(98, 53, 40, 0.65)),
-    url("../public/nico-smit-NFoerQuvzrs-unsplash.jpg") center/cover;
+    url("public/nico-smit-NFoerQuvzrs-unsplash.jpg") center/cover;
 }
 
 .hero-overlay {
